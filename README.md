@@ -7,4 +7,4 @@ CycleGAN, or Cycle-Consistent Generative Adversarial Network, is a type of GAN u
 So, CycleGAN is used to train on unpaired translation which is what is required in case of young-to-old translation as we won't find paired dataset that is same person in young and old phase.
 
 ### Architecture of CycleGAN
-![alt text](use\file.png "architecture")
+![alt text](use/file.png "architecture")
