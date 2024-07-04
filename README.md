@@ -8,3 +8,4 @@ So, CycleGAN is used to train on unpaired translation which is what is required 
 
 ### Architecture of CycleGAN
 ![alt text](use/file.png "architecture")
+This is the basic overview of the architecture of CycleGAN.
