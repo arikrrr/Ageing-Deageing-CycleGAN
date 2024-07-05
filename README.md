@@ -25,4 +25,11 @@ Points to be kept in mind before training:
 * For every 200 batch sample images will be saved in `images/dataset_preprocessed` and model will be saved in `saved_models` after every 2 epoch. 
 
 # Results
+After 72 epochs.
 
+![res](use/result.png "sample")
+
+# References
+
+* Official CycleGAN [paper](https://arxiv.org/abs/1703.10593).
+* Inspiration [from Dillon Erb & Chris](https://github.com/Paperspace/FaceApp-with-Deep-Learning).
