@@ -35,4 +35,4 @@ After 72 epochs.
 # References
 
 * Official CycleGAN [paper](https://arxiv.org/abs/1703.10593).
-* Inspiration [from Dillon Erb & Chris](https://github.com/Paperspace/FaceApp-with-Deep-Learning).
+* Inspiration from [Dillon Erb & Chris](https://github.com/Paperspace/FaceApp-with-Deep-Learning).
