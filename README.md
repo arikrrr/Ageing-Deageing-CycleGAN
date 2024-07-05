@@ -13,7 +13,7 @@ This is the basic overview of the architecture of CycleGAN.
 # Dataset
 Used cropped [UTKFace dataset](https://www.kaggle.com/datasets/jangedoo/utkface-new).
 
-First we extracted only images in range of [20,30] and classified them as young and [50,60] and classified them as old. Basically, we divided the dataset into two folders named trainA and trainB.
+First we extracted only images with age in range of [20,30] and classified them as young and [50,60] and classified them as old. Basically, we divided the dataset into two folders named trainA and trainB.
 
 # Training
 `train.ipynb` have my main training code.
