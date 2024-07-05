@@ -18,8 +18,8 @@ transform = transforms.Compose([
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Update with your model paths
-model_path_a2b = "saved_models/G_AB.pth"
-model_path_b2a = "saved_models/G_BA.pth"
+model_path_a2b = "pretrained_model/G_AB.pth"
+model_path_b2a = "pretrained_model/G_BA.pth"
 
 # Assuming the input shape and number of residual blocks are known
 input_shape = (3, 100, 100)  # Adjust if necessary

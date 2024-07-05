@@ -16,8 +16,13 @@ Used cropped [UTKFace dataset](https://www.kaggle.com/datasets/jangedoo/utkface-
 First we extracted only images in range of [20,30] and classified them as young and [50,60] and classified them as old. Basically, we divided the dataset into two folders named trainA and trainB.
 
 # Training
-train.ipynb have my main training code.
+`train.ipynb` have my main training code.
 Points to be kept in mind before training:
-* Preprocess all the images to 100x100 as it will decrease training time otherwise the code was taking days to finish training.
-* Name the dataset folder <mark>dataset_preprocessed</mark> with two sub-folders "trainA" and "trainB".
-* New folders named 
+* Download [UTKFace Dataset](https://www.kaggle.com/datasets/jangedoo/utkface-new) and keep it in same directory.
+* Preprocess all the images (use `dataset_separate_and_preprocess.ipynb`) to 100x100 as it will decrease training time otherwise the code was taking days to finish training.
+* We will get the folder `dataset_preprocessed` with two sub-folders `trainA` and `trainB`.
+* New folders named `images` and `saved_models` will be created during training.
+* For every 200 batch sample images will be saved in `images/dataset_preprocessed` and model will be saved in `saved_models` after every 2 epoch. 
+
+# Results
+
